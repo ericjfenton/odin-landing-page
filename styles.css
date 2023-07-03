@@ -1,0 +1,27 @@
+h1 {
+    color: darkblue;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+
+.box1 {
+    background-image: url("./images/volcano.jpg");
+}
+
+.box2 {
+    background-image: url("./images/fruity-drink.jpg");
+}
+
+.box3 {
+    background-image: url("./images/pool.jpg");
+}
+
+.box4 {
+    background-image: url("./images/club.jpg");
+}
