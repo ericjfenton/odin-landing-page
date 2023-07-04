@@ -24,7 +24,7 @@ body {
 }
 
 a {
-    margin: 5px;
+    padding-left: 15px;
 }
 
 .nav {
@@ -36,6 +36,7 @@ a {
 .boxes, .quote {
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 .boxes {
@@ -43,6 +44,16 @@ a {
     text-align: center;
     padding: 10px 0px 60px 0px;
     gap: 20px;
+}
+
+.heavy {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.light {
+    font-weight: 100;
+    color: #e5e7eb;
 }
 
 
@@ -55,25 +66,47 @@ a {
 button {
     color: white;
     background-color: #3882F6;
-    padding: 10px;
+    padding: 5px 30px;
     border-radius: 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.subtext, a {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+}
+
+.jones {
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 .action {
     color: white;
     background-color: #3882F6;
     margin: 20px 10%;
-    padding: 25px;
+    padding: 35px 70px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .left-content {
     width: 30%;
+    
+}
+
+.button2 {
+    border: 2px solid white;
 }
     
 h1 {
     color: #faf9f8;
     font-size: 48px;
     font-weight: 900;
+    margin: 0px;
+    padding: 0px;
 }
 
 h2 {
