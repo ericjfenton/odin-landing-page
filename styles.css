@@ -15,7 +15,8 @@ body {
 }
 
 .sunset {
-    width: 60%;
+    width: auto;
+    height: 200px;
 }
 
 .hero-content {
@@ -93,7 +94,8 @@ button {
 }
 
 .left-content {
-    width: 30%;
+    width: 50%;
+    flex-shrink: 0;
     
 }
 
